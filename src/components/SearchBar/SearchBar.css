@@ -1,0 +1,25 @@
+.searchBar {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.575);
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  padding-top: 7px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+.dropMenu {
+  flex: 2;
+}
+.query {
+  flex: 2;
+  margin: 10px;
+}
+.searchBar button {
+  margin-left: 10px;
+}

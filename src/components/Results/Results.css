@@ -1,0 +1,24 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.575);
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-top: -3px;
+  margin-bottom: 5px;
+}
+
+.resultList {
+  border-style: solid;
+  border-color: rgba(255, 217, 0, 0.479);
+  min-height: 400px;
+  max-height: 20px;
+}
