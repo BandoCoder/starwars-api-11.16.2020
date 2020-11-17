@@ -10,7 +10,7 @@ export default class SearchBar extends React.Component {
     const selection = e.target.selection.value;
     this.context.setLoading(true);
     fetch(
-      `https://swapi-thinkful.herokuapp.com/api/${selection}/search=${query}`
+      `https://swapi-thinkful.herokuapp.com/api/${selection}/?search=${query}`
     )
       .then((res) => {
         if (!res.ok) {
